@@ -21,7 +21,7 @@ const App = () => {
             vehicleId,
             latitude,
             longitude,
-            timestamp: new Date().toISOString()
+            timestamp: new Date().toISOString().split(".")[0]
           };
 
           // Update location on UI
